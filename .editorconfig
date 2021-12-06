@@ -1,0 +1,22 @@
+# For more information about the properties used in
+# this file, please see the EditorConfig documentation:
+# http://editorconfig.org/
+
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+
+[*.php]
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[*.{yml,yaml,js,json,xml}]
+indent_style = space
+indent_size = 2
