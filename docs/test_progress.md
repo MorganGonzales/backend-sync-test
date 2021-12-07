@@ -27,3 +27,5 @@ their values to local tables of the same name.
 3. Get the latest `synced_at` value in each local tables for basis of comparison
 4. Using the Collection object we created on each external tables, we query those records whose `updated_at` values are greated than the `synced_at` value from step 3.
 5. Then we update local records from the result of each query (for each table) from step #4.
+
+### Another improvement that can be done is to implement queues on executing syncing
